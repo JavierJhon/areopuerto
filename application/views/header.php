@@ -67,8 +67,8 @@
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">PASAJEROS <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="<?php echo site_url('estudiantes/index'); ?>">Listado</a></li>
-            <li><a href="<?php echo site_url('estudiantes/nuevo'); ?>">Nuevo</a></li>
+            <li><a href="<?php echo site_url('pasajero/index'); ?>">Listado</a></li>
+            <li><a href="<?php echo site_url('pasajeros/nuevo'); ?>">Nuevo</a></li>
 
           </ul>
         </li>
@@ -78,8 +78,8 @@
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">EQUIPAJE <span class="caret"></span></a>
               <ul class="dropdown-menu">
-                <li><a href="<?php echo site_url('colegios/index'); ?>">Listado</a></li>
-                <li><a href="<?php echo site_url('colegios/nuevo'); ?>">Nuevo</a></li>
+                <li><a href="<?php echo site_url('departamento/index'); ?>">Listado</a></li>
+                <li><a href="<?php echo site_url('departamentos/nuevo'); ?>">Nuevo</a></li>
 
               </ul>
             </li>
