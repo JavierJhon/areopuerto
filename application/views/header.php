@@ -78,8 +78,8 @@
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">EQUIPAJE <span class="caret"></span></a>
               <ul class="dropdown-menu">
-                <li><a href="<?php echo site_url('colegios/index'); ?>">Listado</a></li>
-                <li><a href="<?php echo site_url('colegios/nuevo'); ?>">Nuevo</a></li>
+                <li><a href="<?php echo site_url('equipajes/index'); ?>">Listado</a></li>
+                <li><a href="<?php echo site_url('equipajes/nuevo'); ?>">Nuevo</a></li>
 
               </ul>
             </li>
@@ -100,8 +100,8 @@
                     <li class="dropdown">
                       <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">EMPLEADOS <span class="caret"></span></a>
                       <ul class="dropdown-menu">
-                        <li><a href="<?php echo site_url('colegios/index'); ?>">Listado</a></li>
-                        <li><a href="<?php echo site_url('colegios/nuevo'); ?>">Nuevo</a></li>
+                        <li><a href="<?php echo site_url('empleados/index'); ?>">Listado</a></li>
+                        <li><a href="<?php echo site_url('empleados/nuevo'); ?>">Nuevo</a></li>
 
                       </ul>
                     </li>
@@ -130,3 +130,4 @@
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
+
